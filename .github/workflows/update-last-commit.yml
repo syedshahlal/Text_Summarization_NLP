@@ -19,8 +19,4 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s/Last Commit:.*/Last Commit: \${{ steps.date.outputs.commit_date }}/g" README.md
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Update Last Commit date" -a
-          git push
+          sed -i "s/Last Commit:.*$/Last Commit: \${{ steps.date.outputs.commit_date }}/g" README.md
