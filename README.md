@@ -8,7 +8,7 @@
 ![AWS](https://img.shields.io/badge/AWS-For%20Cloud%20Deployment-yellow)
 ![Azure](https://img.shields.io/badge/Azure-For%20Cloud%20Deployment-blue)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-For%20CI%2FCD-brightgreen)
-![GitHub last commit](https://img.shields.io/github/last-commit/github/syedshahlal/Text_Summarization_NLP1?style=flat-square&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/syedshahlal/Text_Summarization_NLP1?style=flat-square&logo=github)
 
 
 # Text_Summarization_NLP
