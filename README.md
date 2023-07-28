@@ -17,8 +17,8 @@
 1. Update config.yaml
 2. Update params.yaml
 3. Update entity
-4. Update the configuration manager in src config
-5. update the conponents
+4. Update the configuration manager in the src config
+5. update the components
 6. update the pipeline
 7. update the main.py
 8. update the app.py
@@ -56,7 +56,7 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open up your local host and port
 ```
 
 
@@ -71,20 +71,20 @@ Email: sr.shahlal@gmail.com
 
 # AWS-CICD-Deployment-with-Github-Actions
 
-## 1. Login to AWS console.
+## 1. Login to the AWS console.
 
-## 2. Create IAM user for deployment
+## 2. Create an IAM user for deployment
 
 	#with specific access
 
-	1. EC2 access : It is virtual machine
+	1. EC2 access: It is a virtual machine
 
-	2. ECR: Elastic Container registry to save your docker image in aws
+	2. ECR: Elastic Container registry to save your docker image in AWS
 
 
 	#Description: About the deployment
 
-	1. Build docker image of the source code
+	1. Build a docker image of the source code
 
 	2. Push your docker image to ECR
 
@@ -126,11 +126,11 @@ Email: sr.shahlal@gmail.com
 
 	newgrp docker
 	
-# 6. Configure EC2 as self-hosted runner:
+# 6. Configure EC2 as a self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 
-# 7. Setup github secrets:
+# 7. Setup GitHub secrets:
 
     AWS_ACCESS_KEY_ID=
 
